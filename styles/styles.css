@@ -6,8 +6,21 @@ body{
 .flex{
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to bottom right, #c8d6e5, #222f3e);
+    background-image: linear-gradient(to top left, #10ac84, #576574);
     display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+.titulo{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+    text-transform: lowercase;
+}
+
+.rodape{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    bottom:10px;
+    position: absolute;
+    
 }
