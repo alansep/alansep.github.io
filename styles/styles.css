@@ -1,26 +1,39 @@
-body{
-    margin: 0px;
-    padding: 0px;
+.g-navbar {
+  height: 60px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.350);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
-.flex{
-    width: 100vw;
-    height: 100vh;
-    background-image: linear-gradient(to top left, #10ac84, #576574);
-    display: flex;
+.tela {
+  width: 100vw;
+  height: 100vh;
 }
 
-.titulo{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color:white;
-    text-transform: lowercase;
+.inicio {
+  background-image: url("../assets/images/abstract.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
-.rodape{
-    width: 100%;
-    height: 20px;
-    text-align: center;
-    bottom:10px;
-    position: absolute;
-    
+.fim {
+    background-image: url("../assets/images/19742Cortada.jpg");
+    background-size: contain;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.box {
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(82, 82, 82, 0.685);
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(10px);
+    border-radius: 3px;
+    overflow: hidden;
 }
