@@ -7,5 +7,8 @@
 
 .titulo {
   font-family: 'Lemonada', cursive;
-  font-size: 50px;
+  font-size: 40px;
+  padding-left:10px;
+  padding-right:10px;
+  text-align: center;
 }
